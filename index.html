@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <script defer type="module" src="./src/js/controller.js"></script>
+
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="img--squares">
+      <div class="img--container">
+        <img src="./src/img/bronto.png" alt="bronto" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/bronto.png" alt="bronto" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/stego.png" alt="stego" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/trex.png" alt="trex" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/ptero.png" alt="ptero" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/trex.png" alt="trex" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/ptero.png" alt="ptero" />
+      </div>
+
+      <div class="img--container">
+        <img src="./src/img/stego.png" alt="stego" />
+      </div>
+    </div>
+
+    <div class="cover--squares">
+      <div class="cover--container" data-mark="b1"></div>
+
+      <div class="cover--container" data-mark="b2"></div>
+
+      <div class="cover--container" data-mark="s1"></div>
+
+      <div class="cover--container" data-mark="t1"></div>
+
+      <div class="cover--container" data-mark="p1"></div>
+
+      <div class="cover--container" data-mark="t2"></div>
+
+      <div class="cover--container" data-mark="p2"></div>
+
+      <div class="cover--container" data-mark="s2"></div>
+    </div>
+
+    <div class="score--area">
+      <p>Score: <span class="score">0</span></p>
+      <p>Failed Attempts: <span class="failed--attempts">0</span></p>
+    </div>
+  </body>
+</html>
