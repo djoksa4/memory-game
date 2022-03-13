@@ -1,12 +1,12 @@
 class View {
-  #coverSquares = document.querySelector(".cover--squares");
-  #failedAttempts = document.querySelector(".failed--attempts");
-  #score = document.querySelector(".score");
+  #coverSquares = document.querySelector(".cover-area");
+  #failedAttempts = document.querySelector(".score-area__failed");
+  #score = document.querySelector(".score-area__score");
   #data;
 
   addHandlerSquareClick(handler) {
     this.#coverSquares.addEventListener("click", function (e) {
-      const square = e.target.closest(".cover--container");
+      const square = e.target.closest(".cover-area__cover");
       if (!square) return;
       square.classList.add("hidden");
 

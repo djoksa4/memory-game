@@ -1,0 +1,46 @@
+$coverColor: rgb(3, 102, 3);
+
+.img-area {
+  width: 538px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  &__img {
+    width: 125px;
+    height: 125px;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+
+.cover-area {
+  position: absolute;
+  top: 8px;
+  z-index: 10;
+
+  width: 538px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  &__cover {
+    width: 125px;
+    height: 125px;
+    background-color: $coverColor;
+  }
+}
+
+.score-area {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.hidden {
+  opacity: 0;
+}
