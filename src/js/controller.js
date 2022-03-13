@@ -1,6 +1,6 @@
 import * as model from "./model.js";
 import view from "./view.js";
-// import "core-js/stable";
+import "core-js/stable";
 
 const controlCheckSquare = function (clickedSquare) {
   // Check if already clicked or disabled
